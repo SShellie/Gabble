@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Welcome To Gabble {{user.name}}
+    <textarea name="message" maxlength="140" form="messageform"></textarea>
+    <form class="" action="/" method="post" id="messageform">
+      <input type="submit" name="submit">
+    </form>
+    <h2>Gabble</h2>
+    <ul class = "messagefeed">
+     {{#messages}}
+
+       <li>{{textbody}}</li>
+
+     {{/messages}}
+   </ul>
+    <p><a href="/logout">Logout</a></p>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+
+body {
+  text-align: center;
+  background-color: lightblue;
+  background-size: cover;
+}
+
+fieldset {
+  border: none;
+  width: 15vw;
+  margin: auto;
+}
+
+.messagefeed {
+  list-style-type: none;
+}
+
+h2 {
+  color: red;
+}
+ img {
+   width: 100px;
+   padding-bottom: 50px;
+ }
+
+ .logo {
+   width: 150px;
+ }
